@@ -52,8 +52,8 @@ const Hero = () => {
             <Button variant="gold" size="xl">
               Reservar Horário
             </Button>
-            <Button variant="gold-outline" size="xl">
-              Conhecer Serviços
+            <Button variant="gold-outline" size="xl" asChild>
+              <a href="#servicos">Conhecer Serviços</a>
             </Button>
           </div>
 
