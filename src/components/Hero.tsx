@@ -81,8 +81,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Bottom Gradient - Extended for ultra smooth transition */}
-      <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-t from-background from-0% via-background/80 via-30% to-transparent to-100%" />
     </section>
   );
 };
