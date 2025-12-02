@@ -36,11 +36,8 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="servicos" className="relative py-24 md:py-32 bg-background">
-      {/* Top gradient overlay for smooth transition */}
-      <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-b from-secondary/50 via-secondary/20 to-transparent pointer-events-none" />
-      
-      <div className="container mx-auto px-6 relative z-10">
+    <section id="servicos" className="py-24 md:py-32 bg-background">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="opacity-0 animate-fade-up text-gold text-sm tracking-widest uppercase font-medium">
