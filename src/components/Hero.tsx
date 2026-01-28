@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center justify-center bg-secondary overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center bg-secondary overflow-hidden pt-24 md:pt-0"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
