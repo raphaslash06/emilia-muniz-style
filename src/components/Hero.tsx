@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="opacity-0 animate-fade-up stagger-4 grid grid-cols-3 gap-8 md:gap-16 mt-16 pt-16 border-t border-gold/10">
+          <div className="opacity-0 animate-fade-up stagger-4 grid grid-cols-3 gap-8 md:gap-16 mt-16 pt-16 pb-8 border-t border-gold/10">
             <div className="text-center">
               <span className="block font-display text-3xl md:text-4xl text-gold mb-1">5+</span>
               <span className="text-xs md:text-sm text-secondary-foreground/60 uppercase tracking-wider">
